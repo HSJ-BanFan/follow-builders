@@ -1,0 +1,68 @@
+{
+  "podcasts": [
+    {
+      "name": "Latent Space",
+      "type": "youtube_channel",
+      "url": "https://www.youtube.com/@LatentSpacePod",
+      "channelHandle": "LatentSpacePod"
+    },
+    {
+      "name": "Training Data",
+      "type": "youtube_playlist",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "playlistId": "PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8"
+    },
+    {
+      "name": "Lenny's Podcast",
+      "type": "youtube_channel",
+      "url": "https://www.youtube.com/@LennysPodcast",
+      "channelHandle": "LennysPodcast"
+    },
+    {
+      "name": "No Priors",
+      "type": "youtube_channel",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "channelHandle": "NoPriorsPodcast"
+    },
+    {
+      "name": "Unsupervised Learning",
+      "type": "youtube_channel",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "channelHandle": "RedpointAI"
+    }
+  ],
+  "x_accounts": [
+    { "name": "Andrej Karpathy", "handle": "karpathy" },
+    { "name": "Swyx", "handle": "swyx" },
+    { "name": "Greg Isenberg", "handle": "gregisenberg" },
+    { "name": "Lenny Rachitsky", "handle": "lennysan" },
+    { "name": "Josh Woodward", "handle": "joshwoodward" },
+    { "name": "Kevin Weil", "handle": "kevinweil" },
+    { "name": "Peter Yang", "handle": "petergyang" },
+    { "name": "Nan Yu", "handle": "thenanyu" },
+    { "name": "Madhu Guru", "handle": "realmadhuguru" },
+    { "name": "Mckay Wrigley", "handle": "mckaywrigley" },
+    { "name": "Steven Johnson", "handle": "stevenbjohnson" },
+    { "name": "Amanda Askell", "handle": "AmandaAskell" },
+    { "name": "Cat Wu", "handle": "_catwu" },
+    { "name": "Thariq", "handle": "trq212" },
+    { "name": "Google Labs", "handle": "GoogleLabs" },
+    { "name": "George Mack", "handle": "george__mack" },
+    { "name": "Raiza Martin", "handle": "raizamrtn" },
+    { "name": "Amjad Masad", "handle": "amasad" },
+    { "name": "Guillermo Rauch", "handle": "rauchg" },
+    { "name": "Riley Brown", "handle": "rileybrown" },
+    { "name": "Alex Albert", "handle": "alexalbert__" },
+    { "name": "Hamel Husain", "handle": "HamelHusain" },
+    { "name": "Aaron Levie", "handle": "levie" },
+    { "name": "Ryo Lu", "handle": "ryolu_" },
+    { "name": "Garry Tan", "handle": "garrytan" },
+    { "name": "Lulu Cheng Meservey", "handle": "lulumeservey" },
+    { "name": "Justine Moore", "handle": "venturetwins" },
+    { "name": "Matt Turck", "handle": "mattturck" },
+    { "name": "Julie Zhuo", "handle": "joulee" },
+    { "name": "Gabriel Peters", "handle": "GabrielPeterss4" },
+    { "name": "PJ Ace", "handle": "PJaccetturo" },
+    { "name": "Zara Zhang", "handle": "zarazhangrui" }
+  ]
+}
