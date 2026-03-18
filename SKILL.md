@@ -196,29 +196,26 @@ Build the cron expression from the user's preferences:
 
 **IMPORTANT: Do NOT use `--channel last`.** It fails when the user has multiple
 channels configured (e.g. telegram + feishu) because the isolated cron session
-has no "last" channel context. Always detect and specify the exact channel.
+has no "last" channel context. Always detect and specify the exact channel and target.
 
-**Step 1: Detect the current channel and target.**
-During onboarding, the user is talking to you through a specific channel.
-Detect it automatically:
-```bash
-# Check which channels are configured
-openclaw channels list 2>/dev/null || echo "Could not list channels"
-```
+**Step 1: Detect the current channel and get the target ID.**
 
-Then ask the user: "I see you're messaging me via [channel name]. Should I
-deliver your daily digest here?" If yes, use that channel. If no, ask which
-channel they prefer.
+The user is messaging you through a specific channel right now. Ask them:
+"Should I deliver your daily digest to this same chat?"
 
-For each channel type, you need both `--channel` AND `--to`:
-- Telegram: `--channel telegram --to "<chat_id>"`
-- Discord: `--channel discord --to "<channel_id>"`
-- Slack: `--channel slack --to "channel:<channel_id>"`
-- Feishu: `--channel feishu --to "<open_id>"`
-- WhatsApp: `--channel whatsapp --to "<phone_number>"`
+If yes, you need two things: the **channel name** and the **target ID**.
 
-To get the target ID, check the current session context or ask the user.
-For Feishu, the open_id looks like `ou_e67df1a850910efb902462aeb87783e5`.
+How to get the target ID for each channel:
+
+| Channel | Target format | How to find it |
+|---------|--------------|----------------|
+| Telegram | Numeric chat ID (e.g. `123456789` for DMs, `-1001234567890` for groups) | Run `openclaw logs --follow`, send a test message, read the `from.id` field. Or: `curl "https://api.telegram.org/bot<token>/getUpdates"` and look for `chat.id` |
+| Telegram forum | Group ID with topic (e.g. `-1001234567890:topic:42`) | Same as above, include the topic thread ID |
+| Feishu | User open_id (e.g. `ou_e67df1a850910efb902462aeb87783e5`) or group chat_id (e.g. `oc_xxx`) | Check `openclaw pairing list feishu` or gateway logs after the user messages the bot |
+| Discord | `user:<user_id>` for DMs, `channel:<channel_id>` for channels | User enables Developer Mode in Discord settings, right-clicks to copy IDs |
+| Slack | `channel:<channel_id>` (e.g. `channel:C1234567890`) | Right-click channel name in Slack, copy link, extract the ID |
+| WhatsApp | Phone number with country code (e.g. `+15551234567`) | The user provides it |
+| Signal | Phone number | The user provides it |
 
 **Step 2: Create the cron job with explicit channel and target.**
 ```bash
@@ -229,9 +226,21 @@ openclaw cron add \
   --session isolated \
   --message "Run the follow-builders skill: execute prepare-digest.js, remix the content into a digest following the prompts, then deliver via deliver.js" \
   --announce \
-  --channel <detected channel> \
-  --to "<detected target ID>" \
+  --channel <channel name> \
+  --to "<target ID>" \
   --exact
+```
+
+Examples:
+```bash
+# Telegram DM
+openclaw cron add --name "AI Builders Digest" --cron "0 8 * * *" --tz "Asia/Shanghai" --session isolated --message "..." --announce --channel telegram --to "123456789" --exact
+
+# Feishu
+openclaw cron add --name "AI Builders Digest" --cron "0 8 * * *" --tz "Asia/Shanghai" --session isolated --message "..." --announce --channel feishu --to "ou_e67df1a850910efb902462aeb87783e5" --exact
+
+# Discord channel
+openclaw cron add --name "AI Builders Digest" --cron "0 8 * * *" --tz "America/New_York" --session isolated --message "..." --announce --channel discord --to "channel:1234567890" --exact
 ```
 
 **Step 3: Verify the cron job works by running it once immediately.**
@@ -240,11 +249,18 @@ openclaw cron list
 openclaw cron run <jobId>
 ```
 
-Wait for the test run to complete and confirm the user received the digest
-in their channel. If it fails, check the error with `openclaw cron runs --id <jobId>`
-and fix the channel/target configuration before moving on.
+Wait for the test run to complete and confirm the user actually received the
+digest in their channel. If it fails, check the error:
+```bash
+openclaw cron runs --id <jobId> --limit 1
+```
 
-Do NOT proceed to the welcome digest step until the cron job has been verified.
+Common errors and fixes:
+- "Channel is required when multiple channels are configured" → you used `--channel last`, specify the exact channel
+- "Delivering to X requires target" → you forgot `--to`, add the target ID
+- "No agent" → add `--agent <agent-id>` if the OpenClaw instance has multiple agents
+
+Do NOT proceed to the welcome digest step until the cron delivery has been verified.
 
 **Non-persistent agent + Telegram or Email delivery:**
 Use system crontab so it runs even when the terminal is closed:
