@@ -1,97 +1,96 @@
-# Follow Builders Daily Digest
+# Follow Builders Notion 日报 ✅ 已配置完成
 
-每天自动生成 AI 建设者简报并同步到 Notion
+## 🎉 状态
 
-## 功能
+- ✅ Notion Integration 已配置
+- ✅ 数据库已连接
+- ✅ 第一份日报已生成
+- ⏳ 定时任务待设置
 
-- 📅 每天早上 9:00 自动运行
-- 🎙️ 追踪 5 个 AI 播客
-- 🐦 监控 25 个顶级 AI 建设者的 Twitter
-- 📝 生成双语简报
-- 📄 自动写入 Notion 数据库
+## 📊 今日数据
 
-## 本地运行
+**日报链接**: https://www.notion.so/AI-Builders-Digest-2026-03-26-32f2efd783b8817b9208e41a5102018d
 
+**数据量**:
+- 🐦 15 条推文（来自 10 位 AI builders）
+- 🎙️ 1 个播客
+- 📝 1 篇博客
+
+## 📁 文件说明
+
+```
+follow-builders-notion/
+├── .env                      # ✅ 你的配置（已设置）
+├── generate-digest-real.js   # ✅ 主脚本（自动读取 .env）
+├── run-digest.bat            # ✅ 手动运行脚本
+├── setup-schedule.bat        # ⏳ 设置定时任务（需管理员运行）
+├── .env.example              # 配置模板
+├── SETUP.md                  # 详细配置指南
+└── package.json              # 项目配置
+```
+
+## 🚀 使用方法
+
+### 手动运行（立即生成日报）
+
+双击运行 `run-digest.bat`
+
+或在命令行执行：
 ```bash
-# 安装依赖
-npm install
-
-# 运行脚本
-node generate-digest-v2.js
+cd follow-builders-notion
+node generate-digest-real.js
 ```
 
-## GitHub Actions 自动化
+### 设置自动定时任务
 
-### 设置步骤
+1. **右键** `setup-schedule.bat`
+2. 选择 **"以管理员身份运行"**
+3. 完成！每天上午 9 点会自动生成日报
 
-1. **创建 GitHub 仓库**
-   - 将此项目推送到 GitHub
-   - 仓库可以是公开或私有
+### 管理定时任务
 
-2. **添加 GitHub Secret**
-   - 进入仓库 Settings → Secrets and variables → Actions
-   - 点击 "New repository secret"
-   - Name: `NOTION_API_KEY`
-   - Value: 你的 Notion API key（从 `~/.config/notion/api_key` 获取）
-   - 点击 "Add secret"
+查看/修改/删除任务：
+1. 按 `Win + R`，输入 `taskschd.msc`
+2. 找到任务 `FollowBuildersDailyDigest`
 
-3. **启用 GitHub Actions**
-   - 进入 Actions 标签页
-   - 点击 "I understand my workflows, go ahead and enable them"
+## 📈 数据来源
 
-4. **手动测试（可选）**
-   - 进入 Actions 标签页
-   - 选择 "Follow Builders Daily Digest" workflow
-   - 点击 "Run workflow" 按钮
-   - 选择分支并点击 "Run workflow"
+- **X/Twitter**: 25 位顶级 AI builders（Andrej Karpathy、Sam Altman、Swyx 等）
+- **播客**: Latent Space、Training Data 等 5 个 AI 播客
+- **博客**: Anthropic Engineering、Claude Blog
 
-5. **查看运行日志**
-   - Actions 标签页可以查看每次运行的历史
-   - 点击具体运行可以查看详细日志
+数据由 [Follow Builders](https://github.com/zarazhangrui/follow-builders) 项目每日更新
 
-## 配置说明
+## ⚙️ 配置选项
 
-### 修改运行时间
+编辑 `.env` 文件可自定义：
 
-编辑 `.github/workflows/daily-digest.yml` 中的 cron 表达式：
-
-```yaml
-schedule:
-  - cron: '0 1 * * *'  # UTC 时间，北京时间 = UTC + 8
+```
+FB_LANGUAGE=zh          # zh=中文, en=英文, bilingual=双语
+FB_TIMEZONE=Asia/Shanghai
+FB_MAX_TWEETS=2         # 每位 builder 显示几条推文
+FB_MAX_PODCASTS=2       # 显示几个播客
+FB_MAX_BLOGS=2          # 显示几篇博客
 ```
 
-常见时间示例：
-- 北京时间 9:00 → `0 1 * * *`
-- 北京时间 12:00 → `0 4 * * *`
-- 北京时间 18:00 → `0 10 * * *`
+## 🐛 常见问题
 
-### 修改数据库 ID
+### 任务没有自动运行？
+- 检查电脑是否在 9:00 AM 开机
+- 检查任务计划程序中的任务状态
+- 手动运行 `run-digest.bat` 测试
 
-如果需要修改 Notion 数据库，编辑 `generate-digest-v2.js`：
+### 数据没有更新？
+- Follow Builders feed 每天 UTC 6:00 更新（北京时间 14:00）
+- 如果早上运行，数据可能还是昨天的
 
-```javascript
-const DATABASE_ID = '你的数据库ID';
-```
+### 想更改运行时间？
+- 打开 `setup-schedule.bat`
+- 修改 `/st 09:00` 为你想要的时间
+- 重新以管理员运行
 
-## 文件说明
+## 📧 需要帮助？
 
-- `generate-digest-v2.js` - 主脚本，生成简报并写入 Notion
-- `run-digest.sh` - 本地运行脚本
-- `.github/workflows/daily-digest.yml` - GitHub Actions 配置
-- `package.json` - Node.js 项目配置
-
-## Notion 数据库
-
-- 名称：Follow Builders Daily Digest V2
-- 访问：https://www.notion.so/d05758a8366646d69b165666b71989a3
-
-## 开发计划
-
-- [ ] 接入真实的 Follow Builders API
-- [ ] 支持自定义内容源
-- [ ] 添加邮件通知
-- [ ] 支持多种输出格式（PDF、Markdown）
-
-## License
-
-MIT
+- 查看详细配置指南: [SETUP.md](SETUP.md)
+- 检查 Notion 数据库权限
+- 确保 Integration 有访问数据库的权限

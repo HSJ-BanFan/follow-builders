@@ -1,0 +1,135 @@
+{
+  "title": "AI 建设者日报 - 2026-03-26",
+  "date": "2026-03-26",
+  "podcasts": [
+    {
+      "title": "Biology's Waymo Moment: Ginkgo Bioworks' Jason Kelly",
+      "summary": "All of the previous revolutions in tech, internet, right, like social media, like whatever, have been totally meaningless to biotechnology and bioparma. Like, yeah, it's nice. We communicate slightly better or whatever. It's just some like back office IT crap, right? Like, not this, like this. This is is actually going to change the fundamentals of how we do science and and our big science industries like bioarma are going to get disrupted. I I really believe that and that's not been true for th...",
+      "link": "https://youtube.com/watch?v=g45Alfg7diw",
+      "author": "Training Data",
+      "duration": "N/A"
+    }
+  ],
+  "tweets": [
+    {
+      "author": "Andrej Karpathy",
+      "handle": "@karpathy",
+      "content": "(I cycle through all LLMs over time and all of them seem to do this so it's not any particular implementation but something deeper, e.g. maybe during training, a lot of the information in the context window is relevant to the task, so the LLMs develop a bias to use what is given, then at test time overfit to anything that happens to RAG its way there via a memory feature (?))",
+      "link": "https://x.com/karpathy/status/2036841069636370467",
+      "engagement": "1241 赞"
+    },
+    {
+      "author": "Andrej Karpathy",
+      "handle": "@karpathy",
+      "content": "One common issue with personalization in all LLMs is how distracting memory seems to be for the models. A single question from 2 months ago about some topic can keep coming up as some kind of a deep interest of mine with undue mentions in perpetuity. Some kind of trying too hard.",
+      "link": "https://x.com/karpathy/status/2036836816654147718",
+      "engagement": "16377 赞"
+    },
+    {
+      "author": "Swyx",
+      "handle": "@swyx",
+      "content": "@aiDotEngineer *support from GDM, OAI, Braintrust, WorkOS AND EVERYONE OF OUR BEAUTIFUL, HANDSOME, AI NATIVE, TECH FORWARD SPONSORS has been so invaluable in keeping us afloat https://t.co/heZBFEH9FN",
+      "link": "https://x.com/swyx/status/2036925527441965164",
+      "engagement": "7 赞"
+    },
+    {
+      "author": "Swyx",
+      "handle": "@swyx",
+      "content": "@aiDotEngineer afterparty at Fabric (thanks to @tokengobbler for the hookup) is good for any companies who are 1) fun/chill vibe 2) generative media (art/music)  - reach out to  sponsorships @ ai . engineer https://t.co/EH8xYGJozg",
+      "link": "https://x.com/swyx/status/2036919167639839193",
+      "engagement": "8 赞"
+    },
+    {
+      "author": "Kevin Weil",
+      "handle": "@kevinweil",
+      "content": "👀 https://t.co/ce5Y3hmImm",
+      "link": "https://x.com/kevinweil/status/2036809393405317545",
+      "engagement": "126 赞"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "@petergyang",
+      "content": "How can I sleep now this shit is like crack 🥲 https://t.co/c32g5whf6I",
+      "link": "https://x.com/petergyang/status/2037042313361588701",
+      "engagement": "2 赞"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "@petergyang",
+      "content": "Got a squat rack finally so why not vibe design and code my own fitness app while I'm at it. https://t.co/0utcVSDSsw",
+      "link": "https://x.com/petergyang/status/2037029503177023705",
+      "engagement": "12 赞"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "@thenanyu",
+      "content": "I really wish we could reclaim design back to meaning “a plan for arranging elements to accomplish a particular purpose”\n\nWe got overly obsessed with arranging elements and forgot about the purpose. https://t.co/Ii2EXoeC0J",
+      "link": "https://x.com/thenanyu/status/2037042617213481410",
+      "engagement": "28 赞"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "@thenanyu",
+      "content": "https://t.co/nBCIKq8e41",
+      "link": "https://x.com/thenanyu/status/2037035153566953870",
+      "engagement": "4 赞"
+    },
+    {
+      "author": "Cat Wu",
+      "handle": "@_catwu",
+      "content": "Auto mode is a step change improvement in the Claude Code UX, balancing autonomy and safety. Almost everyone on our team uses this as a daily driver. \n\nNow available to Claude for Team users! `claude --enable-auto-mode` to turn on, then Shift + Tab to enter the mode https://t.co/m1A6BIBeMa",
+      "link": "https://x.com/_catwu/status/2036852880624541938",
+      "engagement": "380 赞"
+    },
+    {
+      "author": "Thariq",
+      "handle": "@trq212",
+      "content": "read the docs here: https://t.co/kKNSgAeMIg",
+      "link": "https://x.com/trq212/status/2036959640022638922",
+      "engagement": "198 赞"
+    },
+    {
+      "author": "Thariq",
+      "handle": "@trq212",
+      "content": "imessage is now available as a channel! https://t.co/PyDiRkAf3G",
+      "link": "https://x.com/trq212/status/2036959638646866021",
+      "engagement": "1757 赞"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "@amasad",
+      "content": "Apple seems happy with apps made with Replit as evident by the high rate of acceptance. https://t.co/R9MGgDOZ7j",
+      "link": "https://x.com/amasad/status/2037004600893472936",
+      "engagement": "130 赞"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "@rauchg",
+      "content": "Every company will become an AI factory, wherein the unit of production is the token. \n\nTokens, however, create usage tracking  billing headaches that are v unlike SaaS.\n\n▲ AI Gateway now solves the metering problem across models &amp; providers with one /𝚟𝟷/𝚛𝚎𝚙𝚘𝚛𝚝 API call https://t.co/CmrCjzPPK2",
+      "link": "https://x.com/rauchg/status/2036963706576527623",
+      "engagement": "179 赞"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "@levie",
+      "content": "Jevons paradox is happening in real time. Companies, especially outside of tech, are realizing that they can now afford to take on software projects that they wouldn��t have been able to tackle before because now AI lets them do so. \n\nWe’re going to start to use software for all new things in the economy because it’s incrementally cheaper to produce. Marketing teams at big companies will have engineers helping to automate workflows. Engineers in life sciences and healthcare will automate research. Small businesses will hire engineers for the first to build better digital experiences.\n\nAnd as long as AI agents still require a human who understands what to prompt, how to review when an agent goes off the rails, how it guide back, how to maintain the system that was built, how to fix the ongoing bugs, and more, we will still have humans managing these agents.\n\nThis is why all the advice you get of not going into engineering is wrong. The world is going to increasingly be made up of software, and the people that understand it best will be in a strong economic position. This will happen in other roles as well where output goes up and demand increases.",
+      "link": "https://x.com/levie/status/2036832183131033977",
+      "engagement": "3113 赞"
+    }
+  ],
+  "blogs": [
+    {
+      "title": "Claude Code auto mode: a safer way to skip permissions",
+      "author": "Anthropic Engineering",
+      "summary": "By default, Claude Code asks users for approval before running commands or modifying files. This keeps users safe, but it also means a lot of clicking \"approve.\" Over time that leads to approval fatigue, where people stop paying close attention to what they&#x27;re approving. Users have two solution...",
+      "link": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "date": null
+    }
+  ],
+  "stats": {
+    "builders": 10,
+    "tweets": 15,
+    "podcasts": 1,
+    "blogs": 1
+  }
+}
