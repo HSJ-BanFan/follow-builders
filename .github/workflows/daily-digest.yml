@@ -25,7 +25,10 @@ jobs:
       - name: Generate digest
         env:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
-        run: node generate-digest-v2.js
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          FB_LANGUAGE: zh
+          FB_TIMEZONE: Asia/Shanghai
+        run: node generate-digest-real.js
 
       - name: Report success
         if: success()
