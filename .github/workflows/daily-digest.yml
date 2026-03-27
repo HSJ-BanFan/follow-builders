@@ -30,6 +30,14 @@ jobs:
           FB_TIMEZONE: Asia/Shanghai
         run: node generate-digest-real.js
 
+      - name: Commit daily data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add daily-data/*.json
+          git diff --cached --quiet || git commit -m "Update daily data for $(date +'%Y-%m-%d')"
+          git push
+
       - name: Report success
         if: success()
         run: |
