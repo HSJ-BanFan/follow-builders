@@ -1,0 +1,133 @@
+{
+  "title": "AI 建设者日报 - 2026-03-27",
+  "date": "2026-03-27",
+  "podcasts": [],
+  "tweets": [
+    {
+      "author": "Andrej Karpathy",
+      "handle": "@karpathy",
+      "content": "When I built menugen ~1 year ago, I observed that the hardest part by far was not the code itself, it was the plethora of services you have to assemble like IKEA furniture to make it real, the DevOps: services, payments, auth, database, security, domain names, etc...\n\nI am really looking forward to a day where I could simply tell my agent: \"build menugen\" (referencing the post) and it would just work. The whole thing up to the deployed web page. The agent would have to browse a number of services, read the docs, get all the api keys, make everything work, debug it in dev, and deploy to prod. This is the actually hard part, not the code itself. Or rather, the better way to think about it is that the entire DevOps lifecycle has to become code, in addition to the necessary sensors/actuators of the CLIs/APIs with agent-native ergonomics. And there should be no need to visit web pages, click buttons, or anything like that for the human. \n\nIt's easy to state, it's now just barely technically possible and expected to work maybe, but it definitely requires from-scratch re-design, work and thought. Very exciting direction!",
+      "link": "https://x.com/karpathy/status/2037200624450936940",
+      "engagement": "3859 赞"
+    },
+    {
+      "author": "Swyx",
+      "handle": "@swyx",
+      "content": "@claudeai i have now published my 2026 mac setup as my own skill.:https://t.co/vuykJiPuja\n\nclaude cowork (https://t.co/LgGPINPDyT) can consume and run these easily! https://t.co/OcVcaALOza",
+      "link": "https://x.com/swyx/status/2037410502817841176",
+      "engagement": "3 赞"
+    },
+    {
+      "author": "Swyx",
+      "handle": "@swyx",
+      "content": "we basically covered the entire history of information technology in the pod\n\nhttps://t.co/eY4fMksZir",
+      "link": "https://x.com/swyx/status/2037389754686472674",
+      "engagement": "2 赞"
+    },
+    {
+      "author": "Josh Woodward",
+      "handle": "@joshwoodward",
+      "content": "New in Gemini: Import memory &amp; chats to Gemini\n\nIt's now easy to transfer your chats and personal information from other chatbots directly into Gemini\n\nGo to Settings &gt; Import memory to Gemini\n\n\"Importing memory is surprisingly smooth\" https://t.co/SNUTI5JiJh",
+      "link": "https://x.com/joshwoodward/status/2037332341270733259",
+      "engagement": "344 赞"
+    },
+    {
+      "author": "Josh Woodward",
+      "handle": "@joshwoodward",
+      "content": "Useful technique for visual creation! https://t.co/1zCQ6ahtIr",
+      "link": "https://x.com/joshwoodward/status/2037330151172890643",
+      "engagement": "42 赞"
+    },
+    {
+      "author": "Kevin Weil",
+      "handle": "@kevinweil",
+      "content": "Paul used ChatGPT + AlphaFold to create a personalized mRNA vaccine protocol for his dog's cancer. \n\nThis is a glimpse of the future, with AI accelerating personalized medicine. We have to make it easier for people to do this for people, not just dogs! https://t.co/7ShsPNUVI5",
+      "link": "https://x.com/kevinweil/status/2037420429430919674",
+      "engagement": "11 赞"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "@petergyang",
+      "content": "Ok do I know anyone who's on the product team for @spotifycreator? The product has regressed:\n\n1. No way to copy a scheduled episode link (there was an copy button that was removed)\n\n2. After I schedule an episode, it sends me an email saying the episode is live when it's actually not\n\n@eldsjal",
+      "link": "https://x.com/petergyang/status/2037388468008177682",
+      "engagement": "1 赞"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "@petergyang",
+      "content": "\"Part of a new \"Capybara\" series of models, which are larger and more intelligent than Opus\"\n\nThis is what AGI looks like https://t.co/5wM74HlM4g https://t.co/kPM0LVGLyF",
+      "link": "https://x.com/petergyang/status/2037386319429865885",
+      "engagement": "10 赞"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "@thenanyu",
+      "content": "IYKYK https://t.co/2Ziks9u0d9",
+      "link": "https://x.com/thenanyu/status/2037266220961997138",
+      "engagement": "8 赞"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "@thenanyu",
+      "content": "heroku addons:create YOU HAD IT ALL\n\nhttps://t.co/Z8h3PgbrbH",
+      "link": "https://x.com/thenanyu/status/2037265092136284611",
+      "engagement": "3 赞"
+    },
+    {
+      "author": "Amanda Askell",
+      "handle": "@AmandaAskell",
+      "content": "Maybe the move to remote work actually made this worse for people who don't like working from home, because working from home is now just assumed to be a viable alternative.",
+      "link": "https://x.com/AmandaAskell/status/2037210778198302907",
+      "engagement": "329 赞"
+    },
+    {
+      "author": "Amanda Askell",
+      "handle": "@AmandaAskell",
+      "content": "Tech companies pay millions of dollars for their employees and then stick them in open-plan offices that make it nearly impossible to get work done. Best strategy for poaching employees is probably to just offer them an office with a door.",
+      "link": "https://x.com/AmandaAskell/status/2037208098121933188",
+      "engagement": "3541 赞"
+    },
+    {
+      "author": "Thariq",
+      "handle": "@trq212",
+      "content": "Overall weekly limits stay the same, just how they're distributed across the week is changing.\n\nI know this was frustrating. We’re continuing to invest in scaling efficiently. I'll keep you posted on progress.",
+      "link": "https://x.com/trq212/status/2037254609455243503",
+      "engagement": "682 赞"
+    },
+    {
+      "author": "Thariq",
+      "handle": "@trq212",
+      "content": "We've landed a lot of efficiency wins to offset this, but ~7% of users will hit session limits they wouldn't have before, particularly for pro tiers.\n\nIf you run token-intensive background jobs, shifting them to off-peak hours will stretch your session limits further.",
+      "link": "https://x.com/trq212/status/2037254608226222545",
+      "engagement": "762 赞"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "@amasad",
+      "content": "Ran into Senator Josh Hawley at a conference and had a great conversation about how vibecoding could unlock a new wave of American entrepreneurship.\n\nAs this category emerges, it’s important that platforms don’t gatekeep innovation. https://t.co/rX68OaTQM8",
+      "link": "https://x.com/amasad/status/2037275196240052724",
+      "engagement": "280 赞"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "@rauchg",
+      "content": "1961: We should ship a CLI\n2026: We should ship a CLI https://t.co/wZt4za5gNc",
+      "link": "https://x.com/rauchg/status/2037384491677933811",
+      "engagement": "345 赞"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "@rauchg",
+      "content": "Agents need computers\n\nYour agents’ performance improves with their freedom to call tools, install, write, run &amp; debug software (and deploy via 𝚟𝚎𝚛𝚌𝚎𝚕 CLI!)\n\nBut a computer without persistence is not a very good one. Vercel Sandbox fixes this: 𝚗𝚊𝚖𝚎 them, we do the rest https://t.co/1wF0aAAssr",
+      "link": "https://x.com/rauchg/status/2037303296034316379",
+      "engagement": "152 赞"
+    }
+  ],
+  "blogs": [],
+  "stats": {
+    "builders": 10,
+    "tweets": 17,
+    "podcasts": 0,
+    "blogs": 0
+  }
+}
