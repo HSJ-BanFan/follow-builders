@@ -1,0 +1,133 @@
+{
+  "title": "AI 建设者日报 - 2026-03-28",
+  "date": "2026-03-28",
+  "podcasts": [],
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "@swyx",
+      "content": "@openclaw @pmarca @latentspacepod we also talk about the need for @alexblania's @worldcoinfnd Proof of Human to fuck over these retards proudly ruining the internet\n\nhttps://t.co/6GkEGPALJW",
+      "link": "https://x.com/swyx/status/2037695506055610768",
+      "engagement": "6 赞"
+    },
+    {
+      "author": "Swyx",
+      "handle": "@swyx",
+      "content": "@openclaw @pmarca @latentspacepod pls like and subscribe i guess https://t.co/0af86LRpmU",
+      "link": "https://x.com/swyx/status/2037642679501324438",
+      "engagement": "5 赞"
+    },
+    {
+      "author": "Josh Woodward",
+      "handle": "@joshwoodward",
+      "content": "Our \"Veo Sailor\" from the Veo 3 launch wants to remind you: \"You can still make videos in Gemini\" :) https://t.co/qX18rDMU2y",
+      "link": "https://x.com/joshwoodward/status/2037674926715605331",
+      "engagement": "149 赞"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "@petergyang",
+      "content": "The best way to learn to use Claude Cowork is from the designer who helped build it.\n\nDon't miss my new episode with Jenny this weekend where she shared:\n\n→ How she uses Cowork at Anthropic\n→ Live demo: From feedback to product deck\n→ The real story behind Cowork's creation\n\n📌 Subscribe to get it on Sunday: https://t.co/Ggqaa3F11Z",
+      "link": "https://x.com/petergyang/status/2037704776331448686",
+      "engagement": "74 赞"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "@petergyang",
+      "content": "This is why I love @bentossell lol https://t.co/JmTdhkkDxz",
+      "link": "https://x.com/petergyang/status/2037547513163751764",
+      "engagement": "12 赞"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "@thenanyu",
+      "content": "Cmon man \n\nhttps://t.co/lVIY21vy87",
+      "link": "https://x.com/thenanyu/status/2037737596663509363",
+      "engagement": "0 赞"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "@thenanyu",
+      "content": "What if the next few YC batches have overly correlated performance because they all use GStack, which causes them to make the same kinds of mistakes but also biases to them towards being selected for admission.",
+      "link": "https://x.com/thenanyu/status/2037617782943056148",
+      "engagement": "8 赞"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "@levie",
+      "content": "The big gap in most enterprises being able to automate work is being able to get right context to the agents.\n\nWe experience a huge benefit in coding in tech because the problem is generally far simpler than other areas of knowledge work. The codebase contains a bunch of necessary context, access controls and permissions are generally not a major concern, the users are technical enough to supply the context, and the final output is generally quickly verifiable. \n\nMost knowledge work doesn’t look like this. The data is sitting in legacy silos that don’t easily connect to agents, the access controls are all out of whack (people have either too much or too little access), the information isn’t agent-ready, and more. \n\nThis is the big context gap for any type of agentic workflows in most organizations right. The platforms that make solving this easy, and the companies that retool their workflows to enable this, will be the winners in a world of agents.",
+      "link": "https://x.com/levie/status/2037744753073385518",
+      "engagement": "118 赞"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "@garrytan",
+      "content": "This is why on GStack I usually just run /plan-eng-review and /ship and it works https://t.co/qZ2dYsxrdk",
+      "link": "https://x.com/garrytan/status/2037776210898600402",
+      "engagement": "19 赞"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "@garrytan",
+      "content": "We live in remarkable times https://t.co/qJkMjZ9bGM",
+      "link": "https://x.com/garrytan/status/2037775207289831910",
+      "engagement": "16 赞"
+    },
+    {
+      "author": "Zara Zhang",
+      "handle": "@zarazhangrui",
+      "content": "Best Careers page I’ve ever seen https://t.co/upGQuygOtv",
+      "link": "https://x.com/zarazhangrui/status/2037661344154124309",
+      "engagement": "93 赞"
+    },
+    {
+      "author": "Zara Zhang",
+      "handle": "@zarazhangrui",
+      "content": "The next generation of AI products will need to figure out how to reconcile human fallibility with agent infallibility",
+      "link": "https://x.com/zarazhangrui/status/2037653942663098556",
+      "engagement": "16 赞"
+    },
+    {
+      "author": "Nikunj Kothari",
+      "handle": "@nikunj",
+      "content": "If X built something like this natively, I'd honestly pay them $50/mo.. but till then it was fun to run \"intelligence\" to understand all my followers ✌️ https://t.co/wrcnLLxCcx",
+      "link": "https://x.com/nikunj/status/2037743784210132995",
+      "engagement": "7 赞"
+    },
+    {
+      "author": "Peter Steinberger",
+      "handle": "@steipete",
+      "content": "Another sick upcoming feature:\n\n/acp spawn codex --bind here\nLOOK AT ME, I AM CODEX NOW\n\nYou could bind codex/claude code/opencode already in threads, now you can take over your current session as well.",
+      "link": "https://x.com/steipete/status/2037725493315707290",
+      "engagement": "543 赞"
+    },
+    {
+      "author": "Peter Steinberger",
+      "handle": "@steipete",
+      "content": "The next version of OpenClaw is also an MCP, you can use it instead of Anthropic's message channel MCP to connect to a much wider range of message providers.\n\n(I know, this is awkward)",
+      "link": "https://x.com/steipete/status/2037715163562815817",
+      "engagement": "1548 赞"
+    },
+    {
+      "author": "Dan Shipper",
+      "handle": "@danshipper",
+      "content": "created by @kieranklaassen at @every.  \n\nuse the plugin! it changes how we work:\nhttps://t.co/eH2pYfLXV2",
+      "link": "https://x.com/danshipper/status/2037589105417097284",
+      "engagement": "12 赞"
+    },
+    {
+      "author": "Dan Shipper",
+      "handle": "@danshipper",
+      "content": "want an engineering philosophy truly built for the AI age?\n\nuse compound engineering: https://t.co/TIPzJ6CihI",
+      "link": "https://x.com/danshipper/status/2037589016371974486",
+      "engagement": "83 赞"
+    }
+  ],
+  "blogs": [],
+  "stats": {
+    "builders": 10,
+    "tweets": 17,
+    "podcasts": 0,
+    "blogs": 0
+  }
+}
