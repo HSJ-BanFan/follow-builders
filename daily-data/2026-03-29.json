@@ -1,0 +1,133 @@
+{
+  "title": "AI 建设者日报 - 2026-03-29",
+  "date": "2026-03-29",
+  "podcasts": [],
+  "tweets": [
+    {
+      "author": "Andrej Karpathy",
+      "handle": "@karpathy",
+      "content": "- Drafted a blog post\n- Used an LLM to meticulously improve the argument over 4 hours.\n- Wow, feeling great, it’s so convincing!\n- Fun idea let’s ask it to argue the opposite. \n- LLM demolishes the entire argument and convinces me that the opposite is in fact true.\n- lol\n\nThe LLMs may elicit an opinion when asked but are extremely competent in arguing almost any direction. This is actually super useful as a tool for forming your own opinions, just make sure to ask different directions and be careful with the sycophancy.",
+      "link": "https://x.com/karpathy/status/2037921699824607591",
+      "engagement": "23516 赞"
+    },
+    {
+      "author": "Swyx",
+      "handle": "@swyx",
+      "content": "hi it’s me your friendly neighborhood sumo orange devrel.\n\nthese are SOTA Oranges. eating 2 of these every day will ~fill your daily vitamin C and fiber needs (!!!)\n\nthey are delicious, insanely easy to peel (I am dead serious, this will make you revisit what you think an orange eating experience should be, all other oranges are ruined after eating this one) and you can subscribe weekly on Amazon Fresh for like $8.",
+      "link": "https://x.com/swyx/status/2038096302781657462",
+      "engagement": "104 赞"
+    },
+    {
+      "author": "Swyx",
+      "handle": "@swyx",
+      "content": "False equivalence is a trap I’ve been consciously steering away from in my work the last 5 years. in Zuck’s case it cost him @GoogleDeepMind.\n\nin content/strategy it is common to go wide than deep: “oh we do a, b, c, and d” and put equal weight on all of them. But the world is not fair and power laws compound. Most school systems, bureaucrats, managers, and content curators are not set up for one thing to matter 50x more than the next thing. False equivalence killed my first devtools startup. False equivalence plagues policy making in my home country. False equivalence makes you underpay your top performers and spend too much time on lost causes. \n\nRules:\n\nCarefully bet on a very small set of things. \nDon’t hedge, but keep reversibility.\nSet triggers/levels to monitor if you are wrong.\nSet tests to DOUBLE DOWN EARLY if you are more right than you thought.",
+      "link": "https://x.com/swyx/status/2037969691910848941",
+      "engagement": "255 赞"
+    },
+    {
+      "author": "Josh Woodward",
+      "handle": "@joshwoodward",
+      "content": "Seeing great uptake on this, give it a try this weekend! https://t.co/1OkTUnjQSS",
+      "link": "https://x.com/joshwoodward/status/2037940551400735224",
+      "engagement": "212 赞"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "@petergyang",
+      "content": "I would really love to talk to @grok about all the posts I have bookmarked on here but am too lazy to scroll through manually. @elonmusk what do you think?",
+      "link": "https://x.com/petergyang/status/2038068968792162594",
+      "engagement": "84 赞"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "@petergyang",
+      "content": "X asking me to thumbs down my own reply 🥲. \n\nThis button should be visible for original posts too not just replies. I see alot of AI slop in my feed still. https://t.co/3y0KhuI0R1",
+      "link": "https://x.com/petergyang/status/2038067082223554732",
+      "engagement": "61 赞"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "@thenanyu",
+      "content": "TED and 30u30 need to be taught in business schools as examples of complete brand self-destruction",
+      "link": "https://x.com/thenanyu/status/2038025287955280120",
+      "engagement": "15 赞"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "@thenanyu",
+      "content": "RETVRN (to Japan) https://t.co/R2Y9BFE5T8",
+      "link": "https://x.com/thenanyu/status/2038021774105784782",
+      "engagement": "1 赞"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "@amasad",
+      "content": "Wow! https://t.co/bMcvHveKQP",
+      "link": "https://x.com/amasad/status/2038053670907007165",
+      "engagement": "327 赞"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "@amasad",
+      "content": "AI enables everyone to build apps, which leaves the best engineers to focus a layer deeper and do more ambitious things to advance the platforms themselves and expand what’s possible.\n\nThis is what I meant when I started talking about “the 1000x engineer” four years ago. https://t.co/YxIHBRUSUJ https://t.co/76kBBvhilQ",
+      "link": "https://x.com/amasad/status/2037951485418344835",
+      "engagement": "365 赞"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "@rauchg",
+      "content": "Vercel team left their mark on wonderful Arizona this week for our company offsite 🇺🇸😄 So excited to push the frontier with such amazing colleagues and friends https://t.co/pFY6gGYYrI",
+      "link": "https://x.com/rauchg/status/2037993361450336714",
+      "engagement": "450 赞"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "@rauchg",
+      "content": "I can finally ship the text layout of my dreams https://t.co/feyBNQXxLS https://t.co/1ahZ7Sb8b8",
+      "link": "https://x.com/rauchg/status/2037950897909862526",
+      "engagement": "2055 赞"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "@levie",
+      "content": "https://t.co/5zTvYqHztE",
+      "link": "https://x.com/levie/status/2037928306977509601",
+      "engagement": "377 赞"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "@garrytan",
+      "content": "After Richmond disabled its Flock cameras to \"protect immigrants,\" car thefts jumped 33%. \n\nImmigrant shopkeepers begged to bring them back. Last week their city council finally listened. \n\nOpposing safety cameras is a luxury belief. \n\nhttps://t.co/4BecRL4WTL",
+      "link": "https://x.com/garrytan/status/2038054087451885747",
+      "engagement": "935 赞"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "@garrytan",
+      "content": "Embrace boiling the ocean https://t.co/D2qbebbZK2",
+      "link": "https://x.com/garrytan/status/2037982376148734119",
+      "engagement": "138 赞"
+    },
+    {
+      "author": "Zara Zhang",
+      "handle": "@zarazhangrui",
+      "content": "A good agent product should be able to do things that its creator did not think it could do\n\nFor internet-era products, you design all the functionalities and a \"good product\" works according to your expectations\n\nFor agent products, you unleash it and it surprises & delights you with things you didn't think were possible",
+      "link": "https://x.com/zarazhangrui/status/2038144755478237654",
+      "engagement": "13 赞"
+    },
+    {
+      "author": "Zara Zhang",
+      "handle": "@zarazhangrui",
+      "content": "Human context window is the new wall https://t.co/FoUrRBTbEo",
+      "link": "https://x.com/zarazhangrui/status/2037983921946923034",
+      "engagement": "53 赞"
+    }
+  ],
+  "blogs": [],
+  "stats": {
+    "builders": 10,
+    "tweets": 17,
+    "podcasts": 0,
+    "blogs": 0
+  }
+}
