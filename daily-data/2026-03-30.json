@@ -1,0 +1,133 @@
+{
+  "title": "AI 建设者日报 - 2026-03-30",
+  "date": "2026-03-30",
+  "podcasts": [],
+  "tweets": [
+    {
+      "author": "Swyx",
+      "handle": "@swyx",
+      "content": "the most delightful AIs of our time\n\nshelved to do koding and enterprise saas https://t.co/OtrYwwp12k",
+      "link": "https://x.com/swyx/status/2038509566800118021",
+      "engagement": "8 赞"
+    },
+    {
+      "author": "Swyx",
+      "handle": "@swyx",
+      "content": "redpoint literally just published a ranked list of saas businesses to redo from scratch with ai. \n\nyou can flip the 54% and the number 46% of enterprise CIOs *open to new ainative startups* over incumbents is a stunning market opportunity. if you’d asked me prior to seeing this survey i’d have said like 20%. CIOs are more hungry than conservative right now (vs my priors) and that will not last.",
+      "link": "https://x.com/swyx/status/2038431061575979027",
+      "engagement": "231 赞"
+    },
+    {
+      "author": "Kevin Weil",
+      "handle": "@kevinweil",
+      "content": "\"An open source workflow for producing a personalized mRNA cancer vaccine\" https://t.co/Ji6dlqsVHN",
+      "link": "https://x.com/kevinweil/status/2038352979158536256",
+      "engagement": "533 赞"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "@petergyang",
+      "content": "Can't tell if my plane WiFi sucks or if Claude's down again - at least X is working",
+      "link": "https://x.com/petergyang/status/2038461555713732620",
+      "engagement": "10 赞"
+    },
+    {
+      "author": "Peter Yang",
+      "handle": "@petergyang",
+      "content": "If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides.\n\nJoin 110,000+ subscribers here:\nhttps://t.co/yz9xcsfrhF",
+      "link": "https://x.com/petergyang/status/2038453706493243698",
+      "engagement": "1 赞"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "@thenanyu",
+      "content": "Many such cases\n\nhttps://t.co/0GfbrSpmpK",
+      "link": "https://x.com/thenanyu/status/2038339285519085845",
+      "engagement": "2 赞"
+    },
+    {
+      "author": "Nan Yu",
+      "handle": "@thenanyu",
+      "content": "Jevons paradox https://t.co/yIHD6f5WLa",
+      "link": "https://x.com/thenanyu/status/2038323524092207468",
+      "engagement": "29 赞"
+    },
+    {
+      "author": "Thariq",
+      "handle": "@trq212",
+      "content": "these are the components it added that I might want to add to the mockup https://t.co/JW6Hiz6XGS",
+      "link": "https://x.com/trq212/status/2038354323722351049",
+      "engagement": "96 赞"
+    },
+    {
+      "author": "Thariq",
+      "handle": "@trq212",
+      "content": "my specific flow was:\n1. sketch in Figma\n2. prompt: \"In my figma file &lt;link&gt;, I've made a sketch of a new grocery list feature, can you turn that mock up into something that matches the style of this app, also add a bunch of extra components that I might want to add\"",
+      "link": "https://x.com/trq212/status/2038353920473608309",
+      "engagement": "98 赞"
+    },
+    {
+      "author": "Amjad Masad",
+      "handle": "@amasad",
+      "content": "Wow — $8m ARR. \n\nJon (@cheneypiano), one of the earliest Replit vibecoding success stories, is on his way to making millions in recurring revenue.\n\nStarted the business in a week and $400 barely a year ago. https://t.co/R2tsULNJoy",
+      "link": "https://x.com/amasad/status/2038374343953035514",
+      "engagement": "673 赞"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "@rauchg",
+      "content": "Some people have been contemplating an idea for years, maybe decades. Obsessing, attempting, discarding, agonizing, retrying.\n\nSome of these ideas are unpopular, niche, impractical. Not obviously capitalizable. They live on in the inventor's mind.\n\nIn 2026, millions of these ideas will come to life thanks to superintelligent coding agents. \n\nAI doesn't get tired. It amplifies the individual, and for better and sometimes for worse, it always takes you seriously. \"Great idea. Splendid. Wow. You're absolutely right.\" \n\nA world of digital wonders awaits us. This world will disproportionally favor the boldest ideas. Software that once seemed impossible will be one hyperlink away. I can't wait to see it.",
+      "link": "https://x.com/rauchg/status/2038396313566605720",
+      "engagement": "825 赞"
+    },
+    {
+      "author": "Guillermo Rauch",
+      "handle": "@rauchg",
+      "content": "Hiring engineers with 5 years of experience in @𝚌𝚑𝚎𝚗𝚐𝚕𝚘𝚞/𝚙𝚛𝚎𝚝𝚎𝚡𝚝 to create the web rendering toolkit of the future",
+      "link": "https://x.com/rauchg/status/2038274722988003489",
+      "engagement": "2773 赞"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "@levie",
+      "content": "It’s wild to think about what types of infrastructure and services must change in a world where agents can process information a hundred or a thousand times faster than humans.\n\nEven the tools that were built for machine speed before, generally were still in service of end-users making a request somewhere in the system. Agents running 24/7 and in parallel modify these requirements meaningfully. Here are just a few examples:\n\n* Sandboxes. Agents need sandboxes to operate in that have to be insanely low latency because they can boot up these environments for coding at any moment.\n\n* Search (both publicly and within an enterprise). Agents can parallelize searches hundreds or thousands of times so they need to be able to work with fast indexes of information. \n\n* Payments. Agents can now pay in micro transactions, and aren’t bothered by the friction of paying $0.01 for a resource that a human would be. \n\n* File systems. Agents need to be able to work with files at a scale that humans never had to worry about. You’ll have all new complexity around version control, permissions, and having agents reading/writing from data at insane speeds.\n\nAnd there are tons more. We’re going from a word where software was built for people to a world where it’s built for agents. Lots of changes downstream as a result.",
+      "link": "https://x.com/levie/status/2038468564500537416",
+      "engagement": "132 赞"
+    },
+    {
+      "author": "Aaron Levie",
+      "handle": "@levie",
+      "content": "The thing that most people miss initially with agents is that the scope of what we will produce will go up commensurate with what the tools can now automate, which basically means we’ll working the same or even more.\n\nEveryone thinks that we will use AI to do what we already do but cheaper and faster, which would lead to fewer people or getting more time back. In fact it will just mean we’re doing more things.\n\nOnce we figured out that we can automate a particular task, you then expand the size of work to do many more of those or other tasks in a project. The result is that you’re actually combining many other previously hard to combine tasks into a single workflow, causing even more work. \n\nThe software project scope now multiplies because you know you can build far more. The customer insights project now balloons because you know you can reasonably aggregate far more data. The marketing campaign has even more creative production because it’s cheaper and easier. \n\nThis is going to happen in almost every field of work.",
+      "link": "https://x.com/levie/status/2038263457125142742",
+      "engagement": "330 赞"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "@garrytan",
+      "content": "OK, I heard people are running into my \"You should apply to YC\" message dozens of times, so I decided to make them more interesting every time. https://t.co/zFuy2XYfor",
+      "link": "https://x.com/garrytan/status/2038505281504833579",
+      "engagement": "4 赞"
+    },
+    {
+      "author": "Garry Tan",
+      "handle": "@garrytan",
+      "content": "This is the simplest optimization when you have a big boil-the-ocean PR but it's so useful. \n\nWhatever can be parallelized as agents, /plan-ceo-review will figure it out and make a plan that clearly states what you can do side-by-side and when to merge https://t.co/rB2Hji25fV",
+      "link": "https://x.com/garrytan/status/2038493235862253676",
+      "engagement": "5 赞"
+    },
+    {
+      "author": "Matt Turck",
+      "handle": "@mattturck",
+      "content": "Everybody says Spain, but, I mean… https://t.co/S95ePKpsb6",
+      "link": "https://x.com/mattturck/status/2038420259179213266",
+      "engagement": "13 赞"
+    }
+  ],
+  "blogs": [],
+  "stats": {
+    "builders": 10,
+    "tweets": 17,
+    "podcasts": 0,
+    "blogs": 0
+  }
+}
